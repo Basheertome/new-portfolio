@@ -37,7 +37,6 @@ $(document).ready(function(){
 	});
 
 	$('.header h1 a').hover(function(){
-		$(this).html('<span>←</span> Project List');
 		$(window).on('keydown', function(e) {
 			if (e.keyCode == 27) {
 				// Escape
