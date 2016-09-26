@@ -3,5 +3,38 @@
 }
 
 .page h4.center {
-  margin: 0 auto 10px auto;
+	margin: 0 auto 10px auto;
+}
+
+.interactive-ux {
+	position: relative;
+	background: #fff;
+	margin: 30px auto;
+}
+
+.interactive-ux img {
+	visibility: hidden;
+	max-width: 900px;
+	width: 100%;
+}
+
+.watch {
+	top: 0;
+	left: 0;
+}
+
+@media (max-width: 600px) {
+	.interactive-ux img {
+		visibility: visible;
+	}
+
+	.watch {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 500px) {
+	.interactive-ux {
+		margin: 15px auto;
+	}
 }
