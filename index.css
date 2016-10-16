@@ -94,9 +94,11 @@ h2 {
 }
 
 .thumbnails h4 {
+  position: relative;
   font-family:'karbonregular',Sans-Serif;
   font-size: 26px;
   color: #fff;
+  z-index: 10;
   -webkit-transition: .1s linear text-shadow;
   -moz-transition: .1s linear text-shadow;
   transition: .1s linear text-shadow
