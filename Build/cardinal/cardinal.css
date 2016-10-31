@@ -18,9 +18,26 @@
 	width: 100%;
 }
 
+.interactive-ux p {
+	display: block;
+	position: absolute;
+	top: 20px; left: 20px;
+	padding: 9px 15px 11px 15px;
+	background-color: #ff806b;
+	border-radius: 20px;
+}
+
+.interactive-ux p span {
+	font-family: 'karbonmedium', Sans-Serif;
+}
+
 .watch {
 	top: 0;
 	left: 0;
+}
+
+.frame {
+	visibility: hidden;
 }
 
 @media (max-width: 600px) {
@@ -37,4 +54,53 @@
 	.interactive-ux {
 		margin: 15px auto;
 	}
+}
+
+.active,
+.rose,
+.icon,
+.cumulativeicon,
+.weathericon,
+.labelicon,
+.numbers,
+.compassDial,
+.rotate,
+.calendar,
+.activitydial,
+.weatherdial,
+.calendarlabel,
+.calendarsetlabel,
+.alarmlabel,
+.compasslabel,
+.savedcompasslabel,
+.activitylabel,
+.weatherlabel,
+.highlabel,
+.lowlabel,
+.nowlabel,
+.nextlabelone,
+.nextlabeltwo,
+.nextlabel,
+.timerDial,
+.timerSubdial,
+.compassSubdial,
+.alarm,
+.timerHand,
+.compassHand,
+.weatherhand,
+.weatherhandone,
+.weatherhandtwo,
+.weathershadows,
+.linelabels,
+.maplines,
+.maplabels {
+	fill: #ff806b !important;
+}
+
+.pie,
+.cumulativepie,
+.cumulativepierim,
+.zone,
+.lines {
+	stroke: #ff806b !important;
 }
