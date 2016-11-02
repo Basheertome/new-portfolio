@@ -31,6 +31,18 @@
 	font-family: 'karbonmedium', Sans-Serif;
 }
 
+.interactive-ux p a {
+	color: #fff;
+}
+
+.interactive-ux p:hover {
+	background-color: #f27461;
+}
+
+.interactive-ux p:active {
+	top: 21px;
+}
+
 .watch {
 	top: 0;
 	left: 0;
