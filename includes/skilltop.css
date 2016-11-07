@@ -655,10 +655,6 @@ body > .next {
   .page .column:last-child {
     padding-bottom: 0;
   }
-
-  .video .poster {
-    display: none !important;
-  }
 }
 
 @-moz-document url-prefix() {

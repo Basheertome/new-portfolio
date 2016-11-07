@@ -2,7 +2,6 @@ $.getScript('http://a.vimeocdn.com/js/froogaloop2.min.js');
 
 $(document).ready(function(){
 	if ('ontouchstart' in document.documentElement) {
-		$('.video .poster').hide();
 		startSlides($('.slideshow'));
 	} else {
 	    $('.slideshow').waypoint(function() {
