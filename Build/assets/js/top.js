@@ -1,4 +1,4 @@
-$.getScript('http://a.vimeocdn.com/js/froogaloop2.min.js');
+$.getScript('https://a.vimeocdn.com/js/froogaloop2.min.js');
 
 $(document).ready(function(){
 	if ('ontouchstart' in document.documentElement) {

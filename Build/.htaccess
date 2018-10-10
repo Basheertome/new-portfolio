@@ -1,7 +1,7 @@
 Options -Indexes
 
-Redirect 301 /about http://basheer.co
-Redirect 301 /resume http://basheer.co/resume
+Redirect 301 /about https://basheer.co
+Redirect 301 /resume https://basheer.co/resume
 Redirect 301 /archive /bitsnbobs
 Redirect 301 /visualization /bitsnbobs
 Redirect 301 /fabrication /electronics
