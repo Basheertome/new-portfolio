@@ -1,7 +1,0 @@
-.page > p a::after {
-	background-color: #fddb64;
-}
-
-html {
-	background: #1a1a1a url(electronics-header.jpg) no-repeat top center;
-}
